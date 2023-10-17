@@ -1,7 +1,7 @@
 MODULE_NAME=testing
 
 test:
-	echo "No tests yet"
+	@echo "No tests yet"
 
 $(MODULE_NAME).tar: LICENSE README.md $(wildcard *.js)
 	tar cf $@ $?
